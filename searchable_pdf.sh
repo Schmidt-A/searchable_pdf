@@ -1,7 +1,4 @@
-# run example:  bash searchable_pdf.sh input_path
-#
-# where input_path is a directory containing PDF files that need annotation
-# converted documents will be put in a new annotated/ directory
+#!/usr/bin/env bash
 
 input_path=$1
 tmpdir=tmpdir
